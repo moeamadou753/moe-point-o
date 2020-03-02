@@ -8,6 +8,11 @@ function App() {
       <div className="app-header__description">
         Welcome to my personal website.
       </div>
+
+      <section className="about-me">
+        <div className="h1">About Me</div>
+        <div className="body">I do cool things some times.</div>
+      </section>
     </div>
   );
 }
