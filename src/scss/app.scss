@@ -1,8 +1,29 @@
+@import "./globalVariables";
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
 .app-content__container {
+  background-color: $background-cream;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: block;
+  position: relative;
 }
 
 .app-header__title {
+  @extend .h1;
+}
+
+.app-header__subtitle {
+  @extend .h2;
 }
 
 .app-header__description {
+  @extend .body;
+  text-align: justify;
+  width: 40%;
 }

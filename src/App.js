@@ -1,18 +1,29 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import "./scss/main.scss";
 
 function App() {
   return (
     <div className="app-content__container">
-      <header className="app-header__title">Hello! 🙈 I'm Moe.</header>
-      <div className="app-header__description">
-        Welcome to my personal website.
-      </div>
+      <section className="header">
+        <div className="app-header__title">Hello! 🙈 I'm Moe.</div>
+        <div className="app-header__subtitle">Thanks for stopping by.</div>
+        <div className="app-header__description">
+          Take a look around and feel free to connect with me on any of my links
+          below.
+        </div>
+      </section>
 
       <section className="about-me">
         <div className="h1">About Me</div>
-        <div className="body">I do cool things some times.</div>
+        <div className="body">
+          I am a double degree student in Computer Science and Business at the
+          University of Waterloo in Ontario, Canada. I’ve previously done
+          internships at TD Bank as an Android Developer and at Accenture as a
+          general Software Engineer. I am currently looking for Fall 2020
+          (September - December) internship opportunities. Please check out some
+          of my links and work on this website and leave me a message to connect
+          and discuss opportunities or one of my passions.
+        </div>
       </section>
     </div>
   );

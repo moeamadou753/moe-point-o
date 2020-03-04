@@ -7,6 +7,17 @@ $correct-blue: #7F96FF;
 $accent-teal: #A6CFD5;
 $accent-blue: #DBFCFF;
 
+$background-cream: #F7F5E6;
+$outline-blue: #BEE9E8;
+$accent-cream: #FEFCBF;
+$accent-blue: #62B6CB;
+$accent-cyan: #81E9E6;
+$secondary-cyan: #48D6D2;
+$secondary-blue: #2A6FDB;
+$primary-blue: #122C91;
+$primary-teal: #1B4965;
+$deep-blue: #094246;
+
 // Typography
 
 .h1 {
@@ -15,7 +26,7 @@ $accent-blue: #DBFCFF;
   font-weight: bold;
   font-size: 48px;
 
-  color: $primary-black;
+  color: $deep-blue;
 }
 
 .h2 {
@@ -24,7 +35,7 @@ $accent-blue: #DBFCFF;
   font-weight: bold;
   font-size: 36px;
 
-  color: $secondary-purple;
+  color: $secondary-cyan;
 }
 
 .h3 {
@@ -40,9 +51,9 @@ $accent-blue: #DBFCFF;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
 
-  color: $primary-black;
+  color: $primary-teal;
 }
 
 

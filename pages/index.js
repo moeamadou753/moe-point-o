@@ -5,7 +5,7 @@ import "../src/scss/main.scss";
 
 export default function Index() {
   return (
-    <div>
+    <div className="app">
       <IndexHead />
       <App />
     </div>
