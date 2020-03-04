@@ -1,5 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
+import "./scss/main.scss";
 
 function App() {
   return (
