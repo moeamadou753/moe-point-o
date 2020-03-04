@@ -1,4 +1,2 @@
-# moe-point-o
-My personal website and exploratory professional companion.
 
-🚀 [www.mohamedamadou.com](https://mohamedamadou.com)
+#🚀 [Click Me to Visit Moe-Point-O!](https://mohamedamadou.com)
