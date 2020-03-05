@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@zeit/next-sass": "^1.0.1",
+    "express": "latest",
     "next": "^9.2.2",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
@@ -15,12 +16,14 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "sass-loader": "^8.0.2",
+    "serve-favicon": "^2.5.0",
     "webpack": "^4.42.0"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "start": "next start -p $PORT",
-    "build": "next build"
+    "build": "next build",
+    "export": "next export"
   },
   "engines": {
     "npm": "^6.14.2",

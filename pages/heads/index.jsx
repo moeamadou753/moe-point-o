@@ -11,7 +11,7 @@ export default function IndexHead() {
         href="https://fonts.googleapis.com/css?family=Almarai:300,400,700,800&display=swap"
         rel="stylesheet"
       />
-      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon.ico" />
     </Head>
   );
 }
