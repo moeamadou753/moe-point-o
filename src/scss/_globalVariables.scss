@@ -1,30 +1,43 @@
 
 // Colours
 $primary-black: #2B2B2B;
-$secondary-purple: #320E3B;
-$incorrect-pink: #E56399;
-$correct-blue: #7F96FF;
-$accent-teal: #A6CFD5;
-$accent-blue: #DBFCFF;
+$primary-blue: #122C91;
+$primary-teal: #1B4965;
+$primary-pink: #AD62AA;
 
-$background-cream: #F7F5E6;
-$outline-blue: #BEE9E8;
+$secondary-purple: #320E3B;
+$secondary-cyan: #48D6D2;
+$secondary-blue: #2A6FDB;
+$secondary-pink: #EAB9C9;
+
 $accent-cream: #FEFCBF;
 $accent-blue: #62B6CB;
 $accent-cyan: #81E9E6;
-$secondary-cyan: #48D6D2;
-$secondary-blue: #2A6FDB;
-$primary-blue: #122C91;
-$primary-teal: #1B4965;
-$deep-blue: #094246;
+$accent-teal: #A6CFD5;
+$accent-blue: #DBFCFF;
 
+$incorrect-pink: #E56399;
+$incorrect-purple: #413C69;
+$correct-blue: #7F96FF;
+$correct-purple: #4A47A3;
+
+$outline-blue: #BEE9E8;
+$deep-blue: #094246;
+$background-cream: #F7F5E6;
+
+
+$bg-manilla: #f7f5e6;
+$primary-matcha: #a3c9a8;
+$secondary-aloe: #84b59f;
+$primary-aloe: #69a297;
+$outline: #25171a;
 // Typography
 
 .h1 {
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 72px;
 
   color: $deep-blue;
 }
@@ -33,18 +46,18 @@ $deep-blue: #094246;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 48px;
 
-  color: $secondary-cyan;
+  color: $primary-aloe;
 }
 
 .h3 {
   font-family: Almarai, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 24px;
 
-  color: $secondary-purple
+  color: $deep-blue;
 }
 
 .body {
@@ -82,4 +95,8 @@ code {
 #root {
   display: flex;
   flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
 }
