@@ -37,46 +37,46 @@
   border-radius: 50%;
   z-index: 0;
   display: inline-block;
-  background: radial-gradient($tertiary-purple, rgba(0, 0, 0, 0));
-  left: 10%;
-  width: 550px;
-  height: 550px;
+  background: radial-gradient($tertiary-purple, transparent 70%);
+  left: 12%;
+  width: 650px;
+  height: 650px;
   position: absolute;
   animation: left-gradient 3s linear infinite;
 }
 
 .right-glowing-orb {
-  background: radial-gradient($primary-orange, rgba(0, 0, 0, 0));
+  background: radial-gradient($primary-orange 0%, transparent 70%);
   z-index: 0;
   border-radius: 50%;
   display: inline-block;
-  right: 10%;
-  width: 550px;
-  height: 550px;
+  right: 12%;
+  width: 650px;
+  height: 650px;
   position: absolute;
   animation: right-gradient 3s linear infinite;
 }
 
 @keyframes left-gradient {
   0% {
-    top: 12%;
+    top: 5%;
   }
   50% {
     top: 15%;
   }
   100% {
-    top: 12%;
+    top: 5%;
   }
 }
 
 @keyframes right-gradient {
   0% {
-    top: 28%;
+    bottom: 0%;
   }
   50% {
-    top: 25%;
+    bottom: 10%;
   }
   100% {
-    top: 28%;
+    bottom: 0%;
   }
 }
