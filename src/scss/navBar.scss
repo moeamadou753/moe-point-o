@@ -1,0 +1,78 @@
+@import "./globalVariables";
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(180deg, $bg-purple, rgba(0, 0, 0, 0));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 48px;
+
+  > * + * {
+    margin-left: 16px;
+  }
+}
+
+.nav-bar__icon {
+  height: max-content;
+  width: max-content;
+  box-sizing: border-box;
+  display: inline-block;
+
+  > svg {
+    width: 48px;
+    height: 48px;
+
+    * {
+      transition: fill ease 0.2s, box-shadow ease 0.2s;
+    }
+  }
+
+  &:hover {
+    > svg {
+      #white {
+        fill: $accent-purple;
+      }
+      #colour {
+        fill: white;
+      }
+    }
+  }
+}
+
+.nav-bar__text {
+  @extend .h3;
+  text-decoration: none;
+  display: inline-block;
+  transition: color ease 0.2s;
+
+  &:hover {
+    color: $accent-purple;
+  }
+}
+
+.nav-bar__text-outline {
+  width: max-content;
+  height: 48px;
+  border-radius: 15px;
+  background: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 2px solid $primary-orange;
+  transition: border ease 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    border: 2px solid white;
+
+    > .nav-bar__text {
+      color: $accent-purple;
+    }
+  }
+}
