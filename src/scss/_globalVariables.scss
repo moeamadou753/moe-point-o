@@ -5,7 +5,7 @@ $primary-blue: #122C91;
 $primary-teal: #1B4965;
 $primary-pink: #AD62AA;
 
-$secondary-purple: #320E3B;
+
 $secondary-cyan: #48D6D2;
 $secondary-blue: #2A6FDB;
 $secondary-pink: #EAB9C9;
@@ -31,6 +31,15 @@ $primary-matcha: #a3c9a8;
 $secondary-aloe: #84b59f;
 $primary-aloe: #69a297;
 $outline: #25171a;
+
+
+$bg-purple: #4A1E86;
+$accent-purple: #4200FF;
+$secondary-orange: #9C4F58;
+$secondary-purple: #320E3B;
+$tertiary-purple: #9541AA;
+$primary-yellow: #FFD600;
+$primary-orange: #EA7A3B;
 // Typography
 
 .h1 {
@@ -55,9 +64,9 @@ $outline: #25171a;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
 
-  color: $deep-blue;
+  color: white;
 }
 
 .body {
