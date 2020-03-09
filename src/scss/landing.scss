@@ -8,49 +8,29 @@
   display: flex;
   position: relative;
 
-  background: linear-gradient(
-    -45deg,
-    $secondary-aloe,
-    $bg-manilla,
-    $primary-aloe
-  );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background-color: $bg-purple;
 }
 
-@keyframes gradient {
+@keyframes left-gradient {
   0% {
-    background-position: 0% 50%;
+    top: 40%;
   }
   50% {
-    background-position: 100%;
+    top: 80%;
   }
   100% {
-    background-position: 50% 0%;
+    top: 40%;
   }
 }
 
-.landing__greeting-card {
-  position: absolute;
-  width: auto;
-  height: max-content;
-  margin: 48px;
-  bottom: 0;
-  left: 0;
-  border-radius: 15px;
-  padding: 48px;
-  background-color: $bg-manilla;
-  box-shadow: 5px 5px 5px $primary-aloe;
-  transition: all ease 0.5s;
-
-  &:hover {
-    bottom: 10px;
-    left: 10px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px $correct-blue;
-
-    > .app-header__title {
-      color: $correct-blue;
-    }
+@keyframes right-gradient {
+  0% {
+    top: 80%;
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 80%;
   }
 }
