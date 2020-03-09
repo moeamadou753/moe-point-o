@@ -26,11 +26,10 @@ class App extends React.Component {
             <span className="right-glowing-orb" />
             <div className="greeting">
               <div className="greeting__title">
-                <span style={{ "font-weight": "normal" }}>👋🏿 Hello!</span> I’m
-                Moe.
+                <span style={{ fontWeight: "normal" }}>👋🏿 Hello!</span> I’m Moe.
               </div>
               <div className="greeting__body">
-                <span style={{ color: "#FFD600", "font-weight": "bold" }}>
+                <span style={{ color: "#FFD600", fontWeight: "bold" }}>
                   Thank you{" "}
                 </span>
                 for stopping by. Please take a look around to find out more

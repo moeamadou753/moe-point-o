@@ -22,6 +22,7 @@
   width: max-content;
   box-sizing: border-box;
   display: inline-block;
+  background: none;
 
   > svg {
     width: 48px;
@@ -49,10 +50,6 @@
   text-decoration: none;
   display: inline-block;
   transition: color ease 0.2s;
-
-  &:hover {
-    color: $accent-purple;
-  }
 }
 
 .nav-bar__text-outline {
@@ -64,12 +61,35 @@
   align-items: center;
   box-sizing: border-box;
   padding: 16px;
+  border: none;
+  transition: all ease 0.5s;
+  text-decoration: none;
+
+  &:hover {
+    background: white;
+
+    > .nav-bar__text {
+      color: $accent-purple;
+    }
+  }
+}
+
+.nav-bar__text-outline-orange {
+  width: max-content;
+  height: 48px;
+  border-radius: 15px;
+  background: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px;
   border: 2px solid $primary-orange;
-  transition: border ease 0.2s;
+  transition: all ease 0.5s;
   text-decoration: none;
 
   &:hover {
     border: 2px solid white;
+    background: white;
 
     > .nav-bar__text {
       color: $accent-purple;

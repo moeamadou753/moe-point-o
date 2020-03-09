@@ -37,18 +37,22 @@ class NavigationBar extends React.Component {
           </a>
         </Link>
         <Link href="/" replace>
-          <a className="nav-bar__text">ABOUT ME</a>
+          <a className="nav-bar__text-outline">
+            <div className="nav-bar__text">ABOUT ME</div>
+          </a>
         </Link>
         <Link href={`/resumes/${resumeVer}.pdf`} replace>
-          <a className="nav-bar__text" target="_blank">
-            RESUME
+          <a className="nav-bar__text-outline" target="_blank">
+            <div className="nav-bar__text">RESUME</div>
           </a>
         </Link>
         <Link href="/" replace>
-          <a className="nav-bar__text">PROJECT SYMPHONIA</a>
+          <a className="nav-bar__text-outline">
+            <div className="nav-bar__text">PROJECT SYMPHONIA</div>
+          </a>
         </Link>
         <Link href="/" replace>
-          <a className="nav-bar__text-outline">
+          <a className="nav-bar__text-outline-orange">
             <div className="nav-bar__text">CONTACT ME</div>
           </a>
         </Link>
