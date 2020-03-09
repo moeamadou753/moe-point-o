@@ -1,9 +1,12 @@
 const withSass = require("@zeit/next-sass");
+const withImages = require("next-images");
 
-module.exports = withSass({
-  exportPathMap: () => {
-    return {
-      "/": { page: "/" }
-    };
-  }
-});
+module.exports = withSass(
+  withImages({
+    exportPathMap: () => {
+      return {
+        "/": { page: "/" }
+      };
+    }
+  })
+);
