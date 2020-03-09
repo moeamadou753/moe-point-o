@@ -17,6 +17,7 @@ class App extends React.Component {
     this.setState({ landingCardHover: false });
   };
 
+  render() {
     return (
       <div className="app-content__container">
         <section className="landing">
