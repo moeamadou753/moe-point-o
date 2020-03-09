@@ -12,6 +12,8 @@ class NavigationBar extends React.Component {
   }
 
   render() {
+    const resumeVer = "September-19";
+
     return (
       <div className="nav-bar">
         <Link href="https://www.github.com/moeamadou753" replace>
@@ -37,7 +39,7 @@ class NavigationBar extends React.Component {
         <Link href="/about-me" replace>
           <a className="nav-bar__text">ABOUT ME</a>
         </Link>
-        <Link href="/resume" replace>
+        <Link href={`/resumes/${resumeVer}.pdf`} replace>
           <a className="nav-bar__text">RESUME</a>
         </Link>
         <Link href="/symphonia" replace>

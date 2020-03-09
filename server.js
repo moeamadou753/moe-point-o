@@ -6,6 +6,7 @@ const path = require("path");
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const handle = app.getRequestHandler();
+const serveStatic = require("serve-static");
 
 app
   .prepare()
@@ -22,6 +23,7 @@ app
     });
 
     server.use(favicon(path.join(__dirname, "public", "favicon.ico")));
+    server.use(serveStatic(path.resolve("./static")));
   })
   .catch(ex => {
     console.error(ex.stack);
