@@ -12,7 +12,7 @@ class NavigationBar extends React.Component {
   }
 
   render() {
-    const resumeVer = "September-19";
+    const resumeVer = "12-March-2020";
 
     return (
       <div className="nav-bar">
