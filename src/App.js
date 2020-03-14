@@ -1,6 +1,8 @@
 import React from "react";
 import NavigationBar from "./components/NavigationBar";
 import "./scss/main.scss";
+import boysShot from "../src/assets/pics/action-shot-boys.png";
+import normalShot from "../src/assets/pics/normal-1.png";
 
 class App extends React.Component {
   constructor(props) {
@@ -24,17 +26,25 @@ class App extends React.Component {
           <section className="landing">
             <span className="left-glowing-orb" />
             <span className="right-glowing-orb" />
+
             <div className="greeting">
-              <div className="greeting__title">
-                <span style={{ fontWeight: "normal" }}>👋🏿 Hello!</span> I’m Moe.
+              <div className="greeting__left">
+                <img src={normalShot} className="greeting__pic" />
               </div>
-              <div className="greeting__body">
-                <span style={{ color: "#FFD600", fontWeight: "bold" }}>
-                  Thank you{" "}
-                </span>
-                for stopping by. Please take a look around to find out more
-                about my work, what inspires me, and my goals — I look forward
-                to connecting with you soon.
+
+              <div className="greeting__right">
+                <div className="greeting__title">
+                  <span style={{ fontWeight: "normal" }}>👋🏿 Hello!</span> I’m
+                  Moe.
+                </div>
+                <div className="greeting__body">
+                  <span style={{ color: "#FFD600", fontWeight: "bold" }}>
+                    Thank you{" "}
+                  </span>
+                  for stopping by. Please take a look around to find out more
+                  about my work, what inspires me, and my goals — I look forward
+                  to connecting with you soon.
+                </div>
               </div>
             </div>
           </section>
