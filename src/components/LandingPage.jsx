@@ -11,14 +11,7 @@ export default function LandingPage() {
         </div>
         <div className="greeting__right">
           <div className="greeting__title">
-            <span
-              style={{
-                fontWeight: "normal",
-              }}
-            >
-              👋🏿Hello!
-            </span>
-            I’m Moe.
+            Moe <br /> Amadou
           </div>
           <div className="greeting__body">
             <span
