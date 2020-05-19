@@ -1,30 +1,27 @@
-
 // Colours
-$primary-black: #2B2B2B;
-$primary-blue: #122C91;
-$primary-teal: #1B4965;
-$primary-pink: #AD62AA;
+$primary-black: #2b2b2b;
+$primary-blue: #122c91;
+$primary-teal: #1b4965;
+$primary-pink: #ad62aa;
 
+$secondary-cyan: #48d6d2;
+$secondary-blue: #2a6fdb;
+$secondary-pink: #eab9c9;
 
-$secondary-cyan: #48D6D2;
-$secondary-blue: #2A6FDB;
-$secondary-pink: #EAB9C9;
+$accent-cream: #fefcbf;
+$accent-blue: #62b6cb;
+$accent-cyan: #81e9e6;
+$accent-teal: #a6cfd5;
+$accent-blue: #dbfcff;
 
-$accent-cream: #FEFCBF;
-$accent-blue: #62B6CB;
-$accent-cyan: #81E9E6;
-$accent-teal: #A6CFD5;
-$accent-blue: #DBFCFF;
+$incorrect-pink: #e56399;
+$incorrect-purple: #413c69;
+$correct-blue: #7f96ff;
+$correct-purple: #4a47a3;
 
-$incorrect-pink: #E56399;
-$incorrect-purple: #413C69;
-$correct-blue: #7F96FF;
-$correct-purple: #4A47A3;
-
-$outline-blue: #BEE9E8;
+$outline-blue: #bee9e8;
 $deep-blue: #094246;
-$background-cream: #F7F5E6;
-
+$background-cream: #f7f5e6;
 
 $bg-manilla: #f7f5e6;
 $primary-matcha: #a3c9a8;
@@ -32,15 +29,24 @@ $secondary-aloe: #84b59f;
 $primary-aloe: #69a297;
 $outline: #25171a;
 
-
-$bg-purple: #4A1E86;
-$accent-purple: #4200FF;
-$secondary-orange: #9C4F58;
-$secondary-purple: #320E3B;
-$tertiary-purple: #9541AA;
-$primary-yellow: #FFD600;
-$primary-orange: #EA7A3B;
+$bg-purple: #4a1e86;
+$accent-purple: #4200ff;
+$secondary-orange: #9c4f58;
+$secondary-purple: #320e3b;
+$tertiary-purple: #9541aa;
+$primary-yellow: #ffd600;
+$primary-orange: #ea7a3b;
 // Typography
+
+.title {
+  font-family: Rubik, sans-serif;
+  font-weight: 900;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 5 rem;
+
+  color: $tertiary-purple;
+}
 
 .h1 {
   font-family: Almarai, sans-serif;
@@ -78,10 +84,11 @@ $primary-orange: #EA7A3B;
   color: $primary-teal;
 }
 
-
 // Boilerplate
 
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
   width: 100%;
 }
@@ -90,15 +97,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  monospace;
+    monospace;
 }
 
 #root {
