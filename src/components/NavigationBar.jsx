@@ -51,7 +51,7 @@ class NavigationBar extends React.Component {
             <div className="nav-bar__text">PROJECT SYMPHONIA</div>
           </a>
         </Link>
-        <Link href="/" replace>
+        <Link href="mailto:hello@moea.ca" replace>
           <a className="nav-bar__text-outline-orange">
             <div className="nav-bar__text">CONTACT ME</div>
           </a>
