@@ -1,8 +1,6 @@
 import React from "react";
 import NavigationBar from "./components/NavigationBar";
 import "./scss/main.scss";
-import boysShot from "../src/assets/pics/action-shot-boys.png";
-import normalShot from "../src/assets/pics/normal-1.png";
 import LandingPage from "./components/LandingPage";
 
 class App extends React.Component {

@@ -22,7 +22,7 @@ export default function LandingPage() {
               }}
             >
               Thank you
-            </span>
+            </span>{" "}
             for stopping by. Please take a look around to find out more about my
             work, what inspires me, and my goals — I look forward to connecting
             with you soon.
