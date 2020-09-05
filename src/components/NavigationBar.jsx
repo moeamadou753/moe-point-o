@@ -31,7 +31,7 @@ class NavigationBar extends React.Component {
             <SVG src={devpost} />
           </a>
         </Link>
-        <Link href="https://www.twitter.com/Amadou159Amadou" replace>
+        <Link href="https://twitter.com/moe_amadou" replace>
           <a className="nav-bar__icon" target="_blank">
             <SVG src={twitter} />
           </a>
