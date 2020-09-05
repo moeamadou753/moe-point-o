@@ -1,4 +1,5 @@
 import React from "react";
+import normalShot from "../assets/pics/normal-1.png";
 
 export default function LandingPage() {
   return (
@@ -22,8 +23,8 @@ export default function LandingPage() {
             >
               Thank you
             </span>
-            for stopping by.Please take a look around to find out more about my
-            work, what inspires me, and my goals— I look forward to connecting
+            for stopping by. Please take a look around to find out more about my
+            work, what inspires me, and my goals — I look forward to connecting
             with you soon.
           </div>
         </div>
