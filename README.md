@@ -2,4 +2,4 @@
 ![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)
 ![GitHub pull requests](https://img.shields.io/github/repo-size/moeamadou753/moe-point-o)
 
-# 🚀 [Click Me to Visit Moe-Point-O!](https://mohamedamadou.com)
+# 🚀 [Click Me to Visit Moe-Point-O!](https://www.moea.ca)
