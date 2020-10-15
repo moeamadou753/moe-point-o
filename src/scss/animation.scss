@@ -1,0 +1,22 @@
+@keyframes circular-smooth {
+  from {
+    transform: rotate(0deg) translate(30%) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(30%) rotate(-360deg);
+  }
+}
+
+.sr-oscillation {
+  animation: circular-smooth infinite linear 2s;
+}
+
+.rectangle {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
