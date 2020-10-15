@@ -4,7 +4,6 @@ import SVG from "react-inlinesvg";
 import github from "../assets/icons/Github.svg";
 import linkedin from "../assets/icons/LinkedIn.svg";
 import devpost from "../assets/icons/Devpost.svg";
-import twitter from "../assets/icons/Twitter.svg";
 
 class NavigationBar extends React.Component {
   constructor(props) {
@@ -29,11 +28,6 @@ class NavigationBar extends React.Component {
         <Link href="https://www.devpost.com/MohamedAmadou" replace>
           <a className="nav-bar__icon" target="_blank">
             <SVG src={devpost} />
-          </a>
-        </Link>
-        <Link href="https://twitter.com/moe_amadou" replace>
-          <a className="nav-bar__icon" target="_blank">
-            <SVG src={twitter} />
           </a>
         </Link>
         <Link href="/" replace>
