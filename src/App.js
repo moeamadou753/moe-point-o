@@ -1,13 +1,10 @@
 import React from "react";
-import NavigationBar from "./components/NavigationBar";
 import "./scss/main.scss";
+import NavigationBar from "./components/NavigationBar";
 import LandingPage from "./components/LandingPage";
+import Projects from "./components/Projects";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <React.Fragment>
@@ -27,6 +24,7 @@ class App extends React.Component {
               opportunities or one of my passions.
             </div>
           </section> */}
+          <Projects />
         </div>
         <NavigationBar />
       </React.Fragment>
