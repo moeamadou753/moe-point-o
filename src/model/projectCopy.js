@@ -1,31 +1,126 @@
 const projects = {
   complete: {
-    "Find It! Painless Shopping": {},
-    "White Lily Casino": {},
-    Mynute: {},
-    Speculator: {},
+    "Find It! Painless Shopping": {
+      headline: "A shopping app for Ottawa natives",
+      timeline: "September 2017 - April 2018 ",
+      blurb: "",
+      asset: "",
+    },
+    "White Lily Casino": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
+    Mynute: {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
+    Speculator: {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
+    Moderato: {
+      // https://drive.google.com/drive/folders/1HotZNUG4R0SomgB0vCbNJ6NYo49KE3J4?usp=sharing
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
+    "Kanata Tutoring": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "", // https://drive.google.com/drive/u/0/folders/1zdZaeTPDHW5g0Nlt9e_1vedNfzv-dvNU
+    },
+    "Speaking for Injustice": {
+      // Speaking for Injustice: https://www.youtube.com/watch?v=pvCcmGugTmI&feature=youtu.be
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
   },
   in_progress: {
-    Symphonia: {},
-    Jurisprudence: {},
+    Symphonia: {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
+    Jurisprudence: {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+    },
   },
 };
 
 const communityInvolvement = {
   current: {
-    "Hack the North": {},
-    "Contrast: A Cappella": {},
-    "tech+: Mentorship": {},
+    "Hack the North": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+      copy: "",
+    },
+    "Contrast: A Cappella": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "", // Video reel should appear here
+      copy: "", // Will want to be able to hyperlink things and embed videos
+    },
+    "tech+: Mentorship": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+      copy: "",
+    },
+    "Band Banquet": {
+      // https://drive.google.com/drive/folders/0BxoVHHJOIWaNflFvMkRNMDdiaVF5elhYTDdwZmdwYVhEZVhYWjVsRDFlajFpNWEwSFF6NHM?usp=sharing
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+      copy: "",
+    },
   },
   past: {
-    "The Water Boys: A Cappella": {},
-    "JDCC: Extended Strategy": {},
+    "The Water Boys: A Cappella": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+      copy: "",
+    }, // CMM, Blind, All I Ask, I Did Something Bad, Sets I've directed/choreographed
+    // ICCA 2019 QF: https://drive.google.com/file/d/11GpxpS5mF2QyUxam5FgmAggFKRu4Cm9f/view?usp=sharing
+    // Headshots: https://drive.google.com/drive/folders/142rAMf3WQ-JfeWY8zQicmKK9icZI43GL?usp=sharing
+    // All of my UWACC stuff: https://drive.google.com/drive/u/0/folders/1zdZaeTPDHW5g0Nlt9e_1vedNfzv-dvNU
+    "JDCC: Extended Strategy": {
+      headline: "",
+      timeline: "",
+      blurb: "",
+      asset: "",
+      copy: "",
+    },
   },
 };
 
 const caseCompetitions = {
   current: {},
-  past: {},
+  past: {
+    Starbucks: {}, // https://drive.google.com/drive/folders/1Sw-JEM-7Rv0tdkFHMw2aZk_9No-qUqWU?usp=sharing
+    MTS: {}, // https://drive.google.com/drive/folders/1LO00YybBWwwhuQ_lOkBpZy2o1CzlPgYY?usp=sharing
+    "Xlerate x Fidelity": {}, // https://drive.google.com/drive/folders/1KM3c5hScsokLZuvLRsZrcSzkK8_1j2Dv?usp=sharing
+  },
 };
 
 module.exports = { projects, communityInvolvement };
