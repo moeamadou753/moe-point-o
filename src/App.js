@@ -13,7 +13,7 @@ class App extends React.Component {
       <React.Fragment>
         <div className="app-content__container">
           <LandingPage />
-          <section className="about-me">
+          {/* <section className="about-me">
             <div className="h2"> About Me </div>
             <div className="about-me__description">
               I am a double degree student in Computer Science and Business at
@@ -25,7 +25,7 @@ class App extends React.Component {
               website and leave me a message to connect and discuss
               opportunities or one of my passions.
             </div>
-          </section>
+          </section> */}
         </div>
         <NavigationBar />
       </React.Fragment>
