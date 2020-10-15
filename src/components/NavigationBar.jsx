@@ -6,10 +6,6 @@ import linkedin from "../assets/icons/LinkedIn.svg";
 import devpost from "../assets/icons/Devpost.svg";
 
 class NavigationBar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const resumeVer = "4-September-2020";
 
@@ -30,21 +26,21 @@ class NavigationBar extends React.Component {
             <SVG src={devpost} />
           </a>
         </Link>
-        <Link href="/" replace>
+        {/* <Link href="/" replace>
           <a className="nav-bar__text-outline">
             <div className="nav-bar__text">ABOUT ME</div>
           </a>
-        </Link>
+        </Link> */}
         <Link href={`/resumes/${resumeVer}.pdf`} replace>
           <a className="nav-bar__text-outline" target="_blank">
             <div className="nav-bar__text">RESUME</div>
           </a>
         </Link>
-        <Link href="/" replace>
+        {/* <Link href="/" replace>
           <a className="nav-bar__text-outline">
             <div className="nav-bar__text">PROJECT SYMPHONIA</div>
           </a>
-        </Link>
+        </Link> */}
         <Link href="mailto:hello@moea.ca" replace>
           <a className="nav-bar__text-outline-orange">
             <div className="nav-bar__text">CONTACT ME</div>
