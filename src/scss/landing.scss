@@ -3,12 +3,14 @@
 
 // Mobile first
 .landing {
+  position: absolute;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
+  height: max-content;
   padding: 16px;
   display: flex;
   position: relative;
-  overflow: hidden;
+  overflow-y: scroll;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
@@ -16,17 +18,22 @@
 }
 
 .greeting {
+  position: relative;
+  top: 100px;
   width: 80%;
   height: 60%;
+  min-width: 192px;
+  min-height: 224px;
   display: flex;
   flex-direction: row;
   align-self: center;
   z-index: 1;
+  padding-bottom: 10vmin;
 }
 
 .greeting__left {
   flex-basis: 50%;
-  height: 80%;
+  height: min-content;
   margin-right: 48px;
   display: flex;
   flex-direction: column;
@@ -41,8 +48,8 @@
 }
 
 .greeting__pic {
-  width: 100%;
-  height: 100%;
+  height: 60vmin;
+  min-height: 286px;
   object-fit: contain;
 }
 
@@ -107,14 +114,6 @@
 
 
 @media only screen and (min-width: 768px) {
-  .greeting {
-    width: 80%;
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    z-index: 1;
-  }
 
   .greeting__left {
     flex-basis: 50%;
@@ -130,12 +129,6 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-  }
-
-  .greeting__pic {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
   }
 
   .greeting__title {
