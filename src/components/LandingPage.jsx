@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../assets/pics/montreal-1.png";
+import portrait from "../assets/pics/montreal-1.jpg";
 
 export default function LandingPage() {
   return (
