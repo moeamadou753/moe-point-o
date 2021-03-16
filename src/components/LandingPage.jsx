@@ -1,5 +1,5 @@
 import React from "react";
-import normalShot from "../assets/pics/normal-1.png";
+import portrait from "../assets/pics/montreal-1.png";
 
 export default function LandingPage() {
   return (
@@ -8,7 +8,7 @@ export default function LandingPage() {
       <span className="right-glowing-orb" />
       <div className="greeting">
         <div className="greeting__left">
-          <img src={normalShot} className="greeting__pic" />
+          <img src={portrait} className="greeting__pic" />
         </div>
         <div className="greeting__right">
           <div className="greeting__title">
