@@ -10,7 +10,7 @@ class App extends React.Component {
       <React.Fragment>
         <div className="app-content__container">
           <LandingPage />
-          <div className="sr-oscillation rectangle" />
+          {/* <div className="sr-oscillation rectangle" /> */}
           {/* <section className="about-me">
             <div className="h2"> About Me </div>
             <div className="about-me__description">
@@ -24,7 +24,7 @@ class App extends React.Component {
               opportunities or one of my passions.
             </div>
           </section> */}
-          <Projects />
+          {/* <Projects /> */}
         </div>
         <NavigationBar />
       </React.Fragment>
