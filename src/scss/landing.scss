@@ -1,12 +1,14 @@
 @import "./globalVariables";
 @import "./app";
 
+// Mobile first
 .landing {
   width: 100%;
   height: 100%;
   padding: 16px;
   display: flex;
   position: relative;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
@@ -56,27 +58,27 @@
 }
 
 .left-glowing-orb {
-  border-radius: 50%;
-  z-index: 0;
-  display: inline-block;
-  background: radial-gradient($tertiary-purple, transparent 70%);
-  left: 12%;
-  width: 650px;
-  height: 650px;
-  position: absolute;
-  animation: left-gradient 3s linear infinite;
+  // border-radius: 20%;
+  // z-index: 0;
+  // display: inline-block;
+  // background: radial-gradient($tertiary-purple, transparent 70%);
+  // left: 12%;
+  // width: 40%;
+  // height: 40%;
+  // position: absolute;
+  // animation: left-gradient 3s linear infinite;
 }
 
 .right-glowing-orb {
-  background: radial-gradient($primary-orange 0%, transparent 70%);
-  z-index: 0;
-  border-radius: 50%;
-  display: inline-block;
-  right: 12%;
-  width: 650px;
-  height: 650px;
-  position: absolute;
-  animation: right-gradient 3s linear infinite;
+  // background: radial-gradient($primary-orange 0%, transparent 70%);
+  // z-index: 0;
+  // border-radius: 20%;
+  // display: inline-block;
+  // right: 12%;
+  // width: 40%;
+  // height: 40%;
+  // position: absolute;
+  // animation: right-gradient 3s linear infinite;
 }
 
 @keyframes left-gradient {
@@ -100,5 +102,72 @@
   }
   100% {
     bottom: 0%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .greeting {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    z-index: 1;
+  }
+
+  .greeting__left {
+    flex-basis: 50%;
+    height: 80%;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .greeting__right {
+    flex-basis: 50%;
+    height: min-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .greeting__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .greeting__title {
+    margin-bottom: 48px;
+    transition: all ease 0.2s;
+  }
+
+  .greeting__body {
+    transition: all ease 0.2s;
+  }
+  
+  .left-glowing-orb {
+    border-radius: 50%;
+    z-index: 0;
+    display: inline-block;
+    background: radial-gradient($tertiary-purple, transparent 70%);
+    left: 12%;
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    animation: left-gradient 3s linear infinite;
+  }
+
+  .right-glowing-orb {
+    background: radial-gradient($primary-orange 0%, transparent 70%);
+    z-index: 0;
+    border-radius: 50%;
+    display: inline-block;
+    right: 12%;
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    animation: right-gradient 3s linear infinite;
   }
 }
