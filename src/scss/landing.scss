@@ -19,7 +19,7 @@
 
 .greeting {
   position: relative;
-  top: 100px;
+  top: 15vmin;
   width: 80%;
   height: 60%;
   min-width: 192px;
@@ -32,15 +32,16 @@
 }
 
 .greeting__left {
-  flex-basis: 50%;
+  flex-basis: 40%;
   height: min-content;
-  margin-right: 48px;
+  align-self: center;
+  margin-right: 20vw;
   display: flex;
   flex-direction: column;
 }
 
 .greeting__right {
-  flex-basis: 50%;
+  flex-basis: 60%;
   height: min-content;
   align-self: center;
   display: flex;
@@ -49,7 +50,6 @@
 
 .greeting__pic {
   height: 60vmin;
-  min-height: 286px;
   object-fit: contain;
 }
 
