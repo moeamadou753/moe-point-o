@@ -1,9 +1,9 @@
 @keyframes circular-smooth {
   from {
-    transform: rotate(0deg) translate(100%) rotate(0deg);
+    transform: rotate(0deg) translate(60vmin) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translate(100%) rotate(-360deg);
+    transform: rotate(360deg) translate(60vmin) rotate(-360deg);
   }
 }
 
