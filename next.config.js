@@ -7,19 +7,6 @@ module.exports = withSass(
       return {
         "/": { page: "/" }
       };
-    },
-    async headers() {
-      return [
-        {
-          source: '/',
-          headers: [
-            {
-              key: 'Cache-Control',
-              value: 'no-store'
-            }
-          ]
-        }
-      ]
     }
   })
 );

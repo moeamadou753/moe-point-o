@@ -14,6 +14,7 @@ app
     const server = express();
 
     server.get("*", (req, res) => {
+      res.setHeader('Cache-Control', 'no-store');
       return handle(req, res);
     });
 
