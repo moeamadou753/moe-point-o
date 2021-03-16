@@ -36,14 +36,14 @@ $secondary-purple: #320e3b;
 $tertiary-purple: #9541aa;
 $primary-yellow: #ffd600;
 $primary-orange: #ea7a3b;
-// Typography
 
+// Typography
 .title {
   font-family: Rubik, sans-serif;
   font-weight: 900;
   font-weight: bold;
   font-style: italic;
-  font-size: 5 rem;
+  font-size: 7vw;
 
   color: $tertiary-purple;
 }
@@ -52,7 +52,7 @@ $primary-orange: #ea7a3b;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 5vw;
 
   color: white;
 }
@@ -61,7 +61,7 @@ $primary-orange: #ea7a3b;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
 
   color: white;
 }
@@ -70,7 +70,7 @@ $primary-orange: #ea7a3b;
   font-family: Almarai, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5vw;
 
   color: white;
 }
