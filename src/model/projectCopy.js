@@ -1,65 +1,46 @@
-const projects = {
-  complete: {
-    "Find It! Painless Shopping": {
-      headline: "A shopping app for Ottawa natives",
-      timeline: "September 2017 - April 2018 ",
-      blurb: "",
-      asset: "",
-    },
-    "White Lily Casino": {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
-    Mynute: {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
-    Speculator: {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
-    Moderato: {
-      // https://drive.google.com/drive/folders/1HotZNUG4R0SomgB0vCbNJ6NYo49KE3J4?usp=sharing
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
-    "Kanata Tutoring": {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "", // https://drive.google.com/drive/u/0/folders/1zdZaeTPDHW5g0Nlt9e_1vedNfzv-dvNU
-    },
-    "Speaking for Injustice": {
-      // Speaking for Injustice: https://www.youtube.com/watch?v=pvCcmGugTmI&feature=youtu.be
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
+const projects = [
+  {
+    name: "Find It! Painless Shopping",
+    headline: "A shopping app for Ottawa natives",
+    timeline: "September 2017 - April 2018 ",
+    blurb: "",
+    asset: "",
+    index: 0,
   },
-  in_progress: {
-    Symphonia: {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
-    Jurisprudence: {
-      headline: "",
-      timeline: "",
-      blurb: "",
-      asset: "",
-    },
+  {
+    name: "White Lily Casino",
+    headline: "",
+    timeline: "",
+    blurb: "",
+    asset: "",
+    index: 1,
   },
-};
+  {
+    name: "Mynute",
+    headline: "",
+    timeline: "",
+    blurb: "",
+    asset: "",
+    index: 2,
+  },
+  {
+    name: "Mynute",
+    headline: "",
+    timeline: "",
+    blurb: "",
+    asset: "",
+    index: 3,
+  },
+  {
+    name: "Moderato",
+    // https://drive.google.com/drive/folders/1HotZNUG4R0SomgB0vCbNJ6NYo49KE3J4?usp=sharing
+    headline: "",
+    timeline: "",
+    blurb: "",
+    asset: "",
+    index: 4,
+  }
+];
 
 const communityInvolvement = {
   current: {
