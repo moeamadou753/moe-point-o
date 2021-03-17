@@ -3,15 +3,22 @@ import Project from "./Project";
 import { projects } from "../model/projectCopy";
 
 const Projects = () => {
-  const [hovering, setHover] = useState(false);
-  
-  const onHoverOn = (projectRefs) => {
+  console.log(projects.length);
+  console.log(projects);
+
+  let projectRefs = []
+
+  for (let i = 0; i < projects.length; i++) {
+    projectRefs.push(React.createRef())
+  }
+
+  const handleMouseEnter = (projectRefs) => {
     for (let i = 0; i < projectRefs.length; i++) {
         projectRefs[i].current.style.animationPlayState= 'paused';
     }
   }
 
-  const onHoverOff = (projectRefs) => {
+  const handleMouseLeave = (projectRefs) => {
     for (let i = 0; i < projectRefs.length; i++) {
         projectRefs[i].current.style.animationPlayState= 'running';
     }
@@ -22,38 +29,17 @@ const Projects = () => {
   return (
     <div className="projects__container" >
       {projects.map(
-        (project) => {
-
+        (project) => (
           <Project
-            onMouseEnter={() => onHoverOn()}
-            projectRef={React.createRef()}
+            onMouseEnter={() => handleMouseEnter(projectRefs)}
+            onMouseLeave={() => handleMouseLeave(projectRefs)}
+            projectRef={projectRefs[project.index]}
 
-            index={project["index"]}
+            index={project.index}
             total={projects.length}
           />
-        }
+        )
       )}
-      <Project 
-      onMouseEnter={() => onHoverOn(projectRefs)} 
-      onMouseLeave={() => onHoverOff(projectRefs)} 
-      hover={hovering}
-      projectRef={projectRefs[0]} 
-      index={0} 
-      total={3} />
-      <Project 
-      onMouseEnter={() => onHoverOn(projectRefs)} 
-      onMouseLeave={() => onHoverOff(projectRefs)} 
-      hover={hovering}
-      projectRef={projectRefs[1]}  
-      index={1} 
-      total={3} />
-      <Project 
-      onMouseEnter={() => onHoverOn(projectRefs)} 
-      onMouseLeave={() => onHoverOff(projectRefs)} 
-      hover={hovering} 
-      projectRef={projectRefs[2]} 
-      index={2} 
-      total={3} />
     </div>
   );
 }
