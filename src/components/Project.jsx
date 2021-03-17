@@ -11,7 +11,7 @@ import styled, { keyframes } from 'styled-components';
 // - Where is the centre of the larger circle? (45%, 45%)
 // - Will need to set the keyframe angles
 const Project = (props) => {
-    let {hover, index, total} = props;
+    let {hover, projectRef, index, total} = props;
 
     const oscillation = keyframes`
     from {
@@ -23,7 +23,7 @@ const Project = (props) => {
     `;
     
     const Outline = styled('div').attrs({
-        className: `project--thumbnail__container ${hover ? 'pause' : ''}`
+        className: `project--thumbnail__container`
     })`
         position: absolute;
         top: 45%;
@@ -35,9 +35,12 @@ const Project = (props) => {
         animation: ${oscillation} infinite linear 10s;
     `;
 
-    return <Outline>
-      a{props.hover}b{props.index}c{props.total}
-    </Outline>;
+    let outline = <Outline 
+        onMouseEnter={props.onMouseEnter} 
+        onMouseLeave={props.onMouseLeave}
+        ref={projectRef} />;
+
+    return outline;
 }
 
 export default Project;
