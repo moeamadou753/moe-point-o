@@ -5,7 +5,7 @@ const projects = [
     timeline: "September 2017 - April 2018 ",
     blurb: "",
     asset: "",
-    index: 0,
+    index: 0
   },
   {
     name: "White Lily Casino",
@@ -13,7 +13,7 @@ const projects = [
     timeline: "",
     blurb: "",
     asset: "",
-    index: 1,
+    index: 1
   },
   {
     name: "Mynute",
@@ -21,15 +21,15 @@ const projects = [
     timeline: "",
     blurb: "",
     asset: "",
-    index: 2,
+    index: 2
   },
   {
-    name: "Mynute",
+    name: "Speculator",
     headline: "",
     timeline: "",
     blurb: "",
     asset: "",
-    index: 3,
+    index: 3
   },
   {
     name: "Moderato",
@@ -38,12 +38,21 @@ const projects = [
     timeline: "",
     blurb: "",
     asset: "",
-    index: 4,
+    index: 4
+  },
+  {
+    name: "Speaking for Injustice",
+    // Speaking for Injustice: https://www.youtube.com/watch?v=pvCcmGugTmI&feature=youtu.be
+    headline: "",
+    timeline: "",
+    blurb: "",
+    asset: "",
+    index: 5
   }
 ];
 
 const communityInvolvement = {
-  current: {
+  current: {      
     "Hack the North": {
       headline: "",
       timeline: "",

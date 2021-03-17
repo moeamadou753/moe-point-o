@@ -11,7 +11,7 @@ import styled, { keyframes } from 'styled-components';
 // - Where is the centre of the larger circle? (45%, 45%)
 // - Will need to set the keyframe angles
 const Project = (props) => {
-    let {hover, projectRef, index, total} = props;
+    let {projectRef, index, total} = props;
 
     const oscillation = keyframes`
     from {

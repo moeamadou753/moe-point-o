@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import Project from "./Project";
+import { projects } from "../model/projectCopy";
 
 const Projects = () => {
   const [hovering, setHover] = useState(false);
-
-  let projectRefs = [React.createRef(), React.createRef(), React.createRef()]
   
   const onHoverOn = (projectRefs) => {
     for (let i = 0; i < projectRefs.length; i++) {
@@ -18,8 +17,22 @@ const Projects = () => {
     }
   }
 
+
+
   return (
     <div className="projects__container" >
+      {projects.map(
+        (project) => {
+
+          <Project
+            onMouseEnter={() => onHoverOn()}
+            projectRef={React.createRef()}
+
+            index={project["index"]}
+            total={projects.length}
+          />
+        }
+      )}
       <Project 
       onMouseEnter={() => onHoverOn(projectRefs)} 
       onMouseLeave={() => onHoverOff(projectRefs)} 
