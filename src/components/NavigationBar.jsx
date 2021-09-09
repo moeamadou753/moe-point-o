@@ -7,7 +7,7 @@ import devpost from "../assets/icons/Devpost.svg";
 
 class NavigationBar extends React.Component {
   render() {
-    const resumeVer = "6-July-2021";
+    const resumeVer = "9-Sept-2021";
 
     return (
       <div className="nav-bar">
